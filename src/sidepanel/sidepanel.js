@@ -578,7 +578,7 @@
   });
 
   els.exportMd.addEventListener('click', async () => {
-    const rec = await KeeprNotes.getVideo(state.videoId);
+    const rec = await KeeprNotes.getVideo(state.notesVideoId);
     if (!rec || !rec.notes.length) return status(t('nothingToExport'));
     download(
       sanitizeFilename(rec.title || rec.videoId) + '.md',

@@ -1,0 +1,293 @@
+{
+  "extName": {
+    "message": "Keepr Notes — YouTube用タイムスタンプ付きメモ"
+  },
+  "extDesc": {
+    "message": "YouTubeでタイムスタンプ付きのメモを取れます。100%ローカル動作で、メモはあなたのディスクに保存され、拡張機能の更新が止まっても残り続けます。"
+  },
+  "actionTitle": {
+    "message": "Keepr Notes — パネルを開く"
+  },
+  "sidebarTitle": {
+    "message": "Keepr Notes"
+  },
+  "cmdAddNote": {
+    "message": "タイムスタンプ付きメモを追加"
+  },
+  "tabVideo": {
+    "message": "この動画"
+  },
+  "tabLibrary": {
+    "message": "ライブラリ"
+  },
+  "videoPlaceholder": {
+    "message": "メモを取るにはYouTubeの動画を開いてください…"
+  },
+  "addNote": {
+    "message": "+ 現在の時間にメモ"
+  },
+  "exportMd": {
+    "message": ".md をエクスポート"
+  },
+  "searchNotesPh": {
+    "message": "このメモを検索…"
+  },
+  "sortTitle": {
+    "message": "並べ替え"
+  },
+  "sortTime": {
+    "message": "時間順"
+  },
+  "sortCreated": {
+    "message": "新しい順"
+  },
+  "sortUpdated": {
+    "message": "最終編集順"
+  },
+  "emptyNotes": {
+    "message": "まだメモがありません。「+ メモ」、プレーヤーのボタン、または視聴中に Alt+N を押してください。"
+  },
+  "searchLibPh": {
+    "message": "すべての動画のメモを検索…"
+  },
+  "emptyLib": {
+    "message": "まだどの動画にもメモが保存されていません。"
+  },
+  "backupTitle": {
+    "message": "あなたのデータ"
+  },
+  "backupHint": {
+    "message": "すべてこのデバイスにのみ保存されます。何があっても残るようにバックアップを取りましょう。"
+  },
+  "backup": {
+    "message": "バックアップ (.json)"
+  },
+  "restore": {
+    "message": "復元…"
+  },
+  "optionsTitle": {
+    "message": "設定"
+  },
+  "undo": {
+    "message": "元に戻す"
+  },
+  "backToLibrary": {
+    "message": "← ライブラリ"
+  },
+  "browsingSaved": {
+    "message": "保存済みの動画 — メモを追加するにはYouTubeで開いてください。"
+  },
+  "adjustEarlier": {
+    "message": "5秒前へ"
+  },
+  "adjustLater": {
+    "message": "5秒後へ"
+  },
+  "copyMd": {
+    "message": "Markdown をコピー"
+  },
+  "mdCopied": {
+    "message": "Markdown をコピーしました"
+  },
+  "openVideo": {
+    "message": "この動画を開く"
+  },
+  "jump": {
+    "message": "この瞬間にジャンプ"
+  },
+  "openVideoToJump": {
+    "message": "ジャンプするには動画をタブで開いてください"
+  },
+  "openAt": {
+    "message": "この瞬間から開く"
+  },
+  "colorTitle": {
+    "message": "色を変更"
+  },
+  "copyLink": {
+    "message": "この瞬間へのリンクをコピー"
+  },
+  "linkCopied": {
+    "message": "リンクをコピーしました"
+  },
+  "copyFailed": {
+    "message": "コピーできませんでした"
+  },
+  "deleteNote": {
+    "message": "メモを削除"
+  },
+  "noteDeleted": {
+    "message": "メモを削除しました"
+  },
+  "notePlaceholder": {
+    "message": "メモを書く…"
+  },
+  "noMatch": {
+    "message": "検索に一致するメモはありません。"
+  },
+  "noteSingular": {
+    "message": "件のメモ"
+  },
+  "notePlural": {
+    "message": "件のメモ"
+  },
+  "exportThis": {
+    "message": "この動画を Markdown にエクスポート"
+  },
+  "mdExported": {
+    "message": "Markdown をエクスポートしました"
+  },
+  "noteAdded": {
+    "message": "メモを追加しました"
+  },
+  "openVideoToAdd": {
+    "message": "メモを追加するには動画を開いてください"
+  },
+  "nothingToExport": {
+    "message": "エクスポートするメモがありません"
+  },
+  "nothingToBackup": {
+    "message": "まだバックアップするものがありません"
+  },
+  "backupDownloaded": {
+    "message": "バックアップをダウンロードしました"
+  },
+  "restoredPrefix": {
+    "message": "復元しました"
+  },
+  "invalidBackup": {
+    "message": "無効なバックアップファイルです"
+  },
+  "noVideoActive": {
+    "message": "Keepr: アクティブな動画がありません"
+  },
+  "noteSavedAt": {
+    "message": "メモを保存しました"
+  },
+  "addNoteTooltip": {
+    "message": "タイムスタンプ付きメモを追加 (Keepr)"
+  },
+  "welcomeTitle": {
+    "message": "Keepr Notes へようこそ"
+  },
+  "welcomeSubtitle": {
+    "message": "自分のディスクに保存される、YouTube用タイムスタンプ付きメモ。"
+  },
+  "step1Title": {
+    "message": "1 · YouTubeの動画を開く"
+  },
+  "step1Body": {
+    "message": "Keepr はプレーヤーの操作部分に小さなメモボタンを追加します。"
+  },
+  "step2Title": {
+    "message": "2 · ちょうどの瞬間を記録"
+  },
+  "step2Body": {
+    "message": "プレーヤーのボタンをクリックするか Alt+N を押します。現在の秒数がすぐに保存されます。"
+  },
+  "step3Title": {
+    "message": "3 · パネルを開いて書く"
+  },
+  "step3Body": {
+    "message": "ツールバーの Keepr アイコンをクリックします。メモをクリックするとその瞬間に戻れます。いつでも Markdown にエクスポートしたりバックアップできます。"
+  },
+  "welcomeCta": {
+    "message": "YouTube を開く"
+  },
+  "welcomePrivacy": {
+    "message": "アカウント不要、サーバーなし、トラッキングなし。メモがデバイスの外に出ることはありません。"
+  },
+  "optTitle": {
+    "message": "Keepr Notes — 設定"
+  },
+  "optAppearance": {
+    "message": "外観"
+  },
+  "optTheme": {
+    "message": "テーマ"
+  },
+  "optThemeAuto": {
+    "message": "自動（システム）"
+  },
+  "optThemeDark": {
+    "message": "ダーク"
+  },
+  "optThemeLight": {
+    "message": "ライト"
+  },
+  "optDefaultColor": {
+    "message": "新しいメモの既定の色"
+  },
+  "optData": {
+    "message": "あなたのデータ"
+  },
+  "optDataHint": {
+    "message": "メモはこのデバイスにのみローカル保存されます。定期的にバックアップしてください。"
+  },
+  "optShortcut": {
+    "message": "キーボードショートカット"
+  },
+  "optShortcutBody": {
+    "message": "プレーヤー上: Alt+N。グローバルショートカット（YouTubeにフォーカスしていなくても動作）: Alt+Shift+N — ブラウザの拡張機能ショートカット設定ページで変更できます。"
+  },
+  "optAbout": {
+    "message": "について"
+  },
+  "optAboutBody": {
+    "message": "Keepr Notes はローカルファーストでオープンソースです。最小限の権限のみを要求し、データをどこにも送信しません。"
+  },
+  "optColorNone": {
+    "message": "なし"
+  },
+  "optSaved": {
+    "message": "保存しました"
+  },
+  "optLanguage": {
+    "message": "言語"
+  },
+  "optLanguageAuto": {
+    "message": "自動（ブラウザ）"
+  },
+  "videoSingular": {
+    "message": "本の動画"
+  },
+  "videoPlural": {
+    "message": "本の動画"
+  },
+  "optUsage": {
+    "message": "$1 を $2 に保存しています。"
+  },
+  "optEmptyUsage": {
+    "message": "まだメモが保存されていません。"
+  },
+  "optLastBackup": {
+    "message": "最終バックアップ: $1"
+  },
+  "backupNever": {
+    "message": "なし"
+  },
+  "exportAll": {
+    "message": "すべてエクスポート (.md)"
+  },
+  "allExported": {
+    "message": "すべてのメモをエクスポートしました"
+  },
+  "optShortcutsOpen": {
+    "message": "ショートカットを変更…"
+  },
+  "optShortcutsHint": {
+    "message": "グローバルショートカットを変更するには、ブラウザの拡張機能ショートカット設定ページを開いてください。"
+  },
+  "optSupport": {
+    "message": "Keepr を応援する"
+  },
+  "optSupportBody": {
+    "message": "Keepr は無料・ローカルファースト・オープンソースです。お役に立てたなら、ちょっとした支援が継続の力になります。ありがとうございます！"
+  },
+  "supportKofi": {
+    "message": "Ko-fi で支援する"
+  },
+  "supportPaypal": {
+    "message": "PayPal で寄付する"
+  }
+}

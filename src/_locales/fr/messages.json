@@ -1,0 +1,293 @@
+{
+  "extName": {
+    "message": "Keepr Notes — Notes horodatées pour YouTube"
+  },
+  "extDesc": {
+    "message": "Prenez des notes horodatées sur YouTube. 100 % local — vos notes vivent sur votre disque et survivent même si l'extension cesse d'être mise à jour."
+  },
+  "actionTitle": {
+    "message": "Keepr Notes — ouvrir le panneau"
+  },
+  "sidebarTitle": {
+    "message": "Keepr Notes"
+  },
+  "cmdAddNote": {
+    "message": "Ajouter une note horodatée"
+  },
+  "tabVideo": {
+    "message": "Cette vidéo"
+  },
+  "tabLibrary": {
+    "message": "Bibliothèque"
+  },
+  "videoPlaceholder": {
+    "message": "Ouvrez une vidéo YouTube pour prendre des notes…"
+  },
+  "addNote": {
+    "message": "+ Note au temps actuel"
+  },
+  "exportMd": {
+    "message": "Exporter en .md"
+  },
+  "searchNotesPh": {
+    "message": "Rechercher dans ces notes…"
+  },
+  "sortTitle": {
+    "message": "Trier"
+  },
+  "sortTime": {
+    "message": "Par temps"
+  },
+  "sortCreated": {
+    "message": "Plus récentes"
+  },
+  "sortUpdated": {
+    "message": "Dernière modif."
+  },
+  "emptyNotes": {
+    "message": "Aucune note pour l'instant. Appuyez sur + Note ici, sur le bouton du lecteur, ou sur Alt+N pendant le visionnage."
+  },
+  "searchLibPh": {
+    "message": "Rechercher des notes dans toutes les vidéos…"
+  },
+  "emptyLib": {
+    "message": "Aucune note enregistrée sur aucune vidéo pour l'instant."
+  },
+  "backupTitle": {
+    "message": "Vos données"
+  },
+  "backupHint": {
+    "message": "Tout est stocké uniquement sur cet appareil. Faites une sauvegarde pour tout préserver, quoi qu'il arrive."
+  },
+  "backup": {
+    "message": "Sauvegarde (.json)"
+  },
+  "restore": {
+    "message": "Restaurer…"
+  },
+  "optionsTitle": {
+    "message": "Paramètres"
+  },
+  "undo": {
+    "message": "Annuler"
+  },
+  "backToLibrary": {
+    "message": "← Bibliothèque"
+  },
+  "browsingSaved": {
+    "message": "Vidéo enregistrée — ouvrez-la sur YouTube pour ajouter des notes."
+  },
+  "adjustEarlier": {
+    "message": "5 s avant"
+  },
+  "adjustLater": {
+    "message": "5 s après"
+  },
+  "copyMd": {
+    "message": "Copier le Markdown"
+  },
+  "mdCopied": {
+    "message": "Markdown copié"
+  },
+  "openVideo": {
+    "message": "Ouvrir cette vidéo"
+  },
+  "jump": {
+    "message": "Aller à ce moment"
+  },
+  "openVideoToJump": {
+    "message": "Ouvrez la vidéo dans un onglet pour y accéder"
+  },
+  "openAt": {
+    "message": "Ouvrir à ce moment"
+  },
+  "colorTitle": {
+    "message": "Changer la couleur"
+  },
+  "copyLink": {
+    "message": "Copier le lien vers ce moment"
+  },
+  "linkCopied": {
+    "message": "Lien copié"
+  },
+  "copyFailed": {
+    "message": "Copie impossible"
+  },
+  "deleteNote": {
+    "message": "Supprimer la note"
+  },
+  "noteDeleted": {
+    "message": "Note supprimée"
+  },
+  "notePlaceholder": {
+    "message": "Écrivez votre note…"
+  },
+  "noMatch": {
+    "message": "Aucune note ne correspond à votre recherche."
+  },
+  "noteSingular": {
+    "message": "note"
+  },
+  "notePlural": {
+    "message": "notes"
+  },
+  "exportThis": {
+    "message": "Exporter cette vidéo en Markdown"
+  },
+  "mdExported": {
+    "message": "Markdown exporté"
+  },
+  "noteAdded": {
+    "message": "Note ajoutée"
+  },
+  "openVideoToAdd": {
+    "message": "Ouvrez la vidéo pour ajouter des notes"
+  },
+  "nothingToExport": {
+    "message": "Aucune note à exporter"
+  },
+  "nothingToBackup": {
+    "message": "Rien à sauvegarder pour l'instant"
+  },
+  "backupDownloaded": {
+    "message": "Sauvegarde téléchargée"
+  },
+  "restoredPrefix": {
+    "message": "Restauré"
+  },
+  "invalidBackup": {
+    "message": "Fichier de sauvegarde non valide"
+  },
+  "noVideoActive": {
+    "message": "Keepr : aucune vidéo active"
+  },
+  "noteSavedAt": {
+    "message": "Note enregistrée à"
+  },
+  "addNoteTooltip": {
+    "message": "Ajouter une note horodatée (Keepr)"
+  },
+  "welcomeTitle": {
+    "message": "Bienvenue dans Keepr Notes"
+  },
+  "welcomeSubtitle": {
+    "message": "Des notes horodatées pour YouTube qui vivent sur votre propre disque."
+  },
+  "step1Title": {
+    "message": "1 · Ouvrez n'importe quelle vidéo YouTube"
+  },
+  "step1Body": {
+    "message": "Keepr ajoute un petit bouton de note aux commandes du lecteur."
+  },
+  "step2Title": {
+    "message": "2 · Capturez le moment exact"
+  },
+  "step2Body": {
+    "message": "Cliquez sur le bouton du lecteur ou appuyez sur Alt+N. La seconde actuelle est enregistrée instantanément."
+  },
+  "step3Title": {
+    "message": "3 · Ouvrez le panneau et écrivez"
+  },
+  "step3Body": {
+    "message": "Cliquez sur l'icône Keepr dans la barre d'outils. Cliquez sur une note pour revenir à ce moment. Exportez en Markdown ou sauvegardez à tout moment."
+  },
+  "welcomeCta": {
+    "message": "Ouvrir YouTube"
+  },
+  "welcomePrivacy": {
+    "message": "Pas de compte, pas de serveurs, pas de pistage. Vos notes ne quittent jamais votre appareil."
+  },
+  "optTitle": {
+    "message": "Keepr Notes — Paramètres"
+  },
+  "optAppearance": {
+    "message": "Apparence"
+  },
+  "optTheme": {
+    "message": "Thème"
+  },
+  "optThemeAuto": {
+    "message": "Auto (système)"
+  },
+  "optThemeDark": {
+    "message": "Sombre"
+  },
+  "optThemeLight": {
+    "message": "Clair"
+  },
+  "optDefaultColor": {
+    "message": "Couleur par défaut des nouvelles notes"
+  },
+  "optData": {
+    "message": "Vos données"
+  },
+  "optDataHint": {
+    "message": "Les notes sont stockées localement sur cet appareil uniquement. Sauvegardez-les régulièrement."
+  },
+  "optShortcut": {
+    "message": "Raccourci clavier"
+  },
+  "optShortcutBody": {
+    "message": "Dans le lecteur : Alt+N. Raccourci global (fonctionne sans avoir YouTube au premier plan) : Alt+Shift+N — configurable sur la page des raccourcis d'extensions de votre navigateur."
+  },
+  "optAbout": {
+    "message": "À propos"
+  },
+  "optAboutBody": {
+    "message": "Keepr Notes est local-first et open source. Il demande un minimum d'autorisations et n'envoie jamais vos données nulle part."
+  },
+  "optColorNone": {
+    "message": "Aucune"
+  },
+  "optSaved": {
+    "message": "Enregistré"
+  },
+  "optLanguage": {
+    "message": "Langue"
+  },
+  "optLanguageAuto": {
+    "message": "Automatique (navigateur)"
+  },
+  "videoSingular": {
+    "message": "vidéo"
+  },
+  "videoPlural": {
+    "message": "vidéos"
+  },
+  "optUsage": {
+    "message": "Vous avez $1 sur $2."
+  },
+  "optEmptyUsage": {
+    "message": "Aucune note enregistrée pour l'instant."
+  },
+  "optLastBackup": {
+    "message": "Dernière sauvegarde : $1"
+  },
+  "backupNever": {
+    "message": "jamais"
+  },
+  "exportAll": {
+    "message": "Tout exporter (.md)"
+  },
+  "allExported": {
+    "message": "Toutes les notes exportées"
+  },
+  "optShortcutsOpen": {
+    "message": "Changer le raccourci…"
+  },
+  "optShortcutsHint": {
+    "message": "Pour changer le raccourci global, ouvrez la page des raccourcis d'extensions de votre navigateur."
+  },
+  "optSupport": {
+    "message": "Soutenir Keepr"
+  },
+  "optSupportBody": {
+    "message": "Keepr est gratuit, local-first et open source. S'il vous est utile, un petit pourboire l'aide à continuer. Merci !"
+  },
+  "supportKofi": {
+    "message": "Offrez-moi un Ko-fi"
+  },
+  "supportPaypal": {
+    "message": "Faire un don avec PayPal"
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "extName": {
+    "message": "Keepr Notes — YouTube के लिए टाइमस्टैंप वाले नोट्स"
+  },
+  "extDesc": {
+    "message": "YouTube पर टाइमस्टैंप वाले नोट्स लें। 100% लोकल — आपके नोट्स आपकी डिस्क पर रहते हैं और एक्सटेंशन के अपडेट बंद होने पर भी सुरक्षित रहते हैं।"
+  },
+  "actionTitle": {
+    "message": "Keepr Notes — पैनल खोलें"
+  },
+  "sidebarTitle": {
+    "message": "Keepr Notes"
+  },
+  "cmdAddNote": {
+    "message": "टाइमस्टैंप वाला नोट जोड़ें"
+  },
+  "tabVideo": {
+    "message": "यह वीडियो"
+  },
+  "tabLibrary": {
+    "message": "लाइब्रेरी"
+  },
+  "videoPlaceholder": {
+    "message": "नोट्स लेने के लिए कोई YouTube वीडियो खोलें…"
+  },
+  "addNote": {
+    "message": "+ मौजूदा समय पर नोट"
+  },
+  "exportMd": {
+    "message": ".md एक्सपोर्ट करें"
+  },
+  "searchNotesPh": {
+    "message": "इन नोट्स में खोजें…"
+  },
+  "sortTitle": {
+    "message": "क्रमबद्ध करें"
+  },
+  "sortTime": {
+    "message": "समय के अनुसार"
+  },
+  "sortCreated": {
+    "message": "सबसे नए"
+  },
+  "sortUpdated": {
+    "message": "अंतिम बार संपादित"
+  },
+  "emptyNotes": {
+    "message": "अभी कोई नोट नहीं है। यहाँ + नोट दबाएँ, प्लेयर बटन दबाएँ, या देखते समय Alt+N दबाएँ।"
+  },
+  "searchLibPh": {
+    "message": "सभी वीडियो के नोट्स में खोजें…"
+  },
+  "emptyLib": {
+    "message": "अभी तक किसी भी वीडियो पर कोई नोट सेव नहीं किया गया है।"
+  },
+  "backupTitle": {
+    "message": "आपका डेटा"
+  },
+  "backupHint": {
+    "message": "सब कुछ केवल इसी डिवाइस पर सेव होता है। बैकअप बनाएँ ताकि वह हर हाल में सुरक्षित रहे।"
+  },
+  "backup": {
+    "message": "बैकअप (.json)"
+  },
+  "restore": {
+    "message": "रिस्टोर करें…"
+  },
+  "optionsTitle": {
+    "message": "सेटिंग्स"
+  },
+  "undo": {
+    "message": "पूर्ववत करें"
+  },
+  "backToLibrary": {
+    "message": "← लाइब्रेरी"
+  },
+  "browsingSaved": {
+    "message": "सेव किया गया वीडियो — नोट्स जोड़ने के लिए इसे YouTube पर खोलें।"
+  },
+  "adjustEarlier": {
+    "message": "5 सेकंड पहले"
+  },
+  "adjustLater": {
+    "message": "5 सेकंड बाद"
+  },
+  "copyMd": {
+    "message": "Markdown कॉपी करें"
+  },
+  "mdCopied": {
+    "message": "Markdown कॉपी हो गया"
+  },
+  "openVideo": {
+    "message": "यह वीडियो खोलें"
+  },
+  "jump": {
+    "message": "इस पल पर जाएँ"
+  },
+  "openVideoToJump": {
+    "message": "इस पल पर जाने के लिए वीडियो को टैब में खोलें"
+  },
+  "openAt": {
+    "message": "इस पल पर खोलें"
+  },
+  "colorTitle": {
+    "message": "रंग बदलें"
+  },
+  "copyLink": {
+    "message": "इस पल का लिंक कॉपी करें"
+  },
+  "linkCopied": {
+    "message": "लिंक कॉपी हो गया"
+  },
+  "copyFailed": {
+    "message": "कॉपी नहीं हो सका"
+  },
+  "deleteNote": {
+    "message": "नोट हटाएँ"
+  },
+  "noteDeleted": {
+    "message": "नोट हटा दिया गया"
+  },
+  "notePlaceholder": {
+    "message": "अपना नोट लिखें…"
+  },
+  "noMatch": {
+    "message": "आपकी खोज से कोई नोट मेल नहीं खाता।"
+  },
+  "noteSingular": {
+    "message": "नोट"
+  },
+  "notePlural": {
+    "message": "नोट्स"
+  },
+  "exportThis": {
+    "message": "इस वीडियो को Markdown में एक्सपोर्ट करें"
+  },
+  "mdExported": {
+    "message": "Markdown एक्सपोर्ट हो गया"
+  },
+  "noteAdded": {
+    "message": "नोट जोड़ा गया"
+  },
+  "openVideoToAdd": {
+    "message": "नोट्स जोड़ने के लिए वीडियो खोलें"
+  },
+  "nothingToExport": {
+    "message": "एक्सपोर्ट करने के लिए कोई नोट नहीं है"
+  },
+  "nothingToBackup": {
+    "message": "अभी बैकअप करने के लिए कुछ नहीं है"
+  },
+  "backupDownloaded": {
+    "message": "बैकअप डाउनलोड हो गया"
+  },
+  "restoredPrefix": {
+    "message": "रिस्टोर किया गया"
+  },
+  "invalidBackup": {
+    "message": "अमान्य बैकअप फ़ाइल"
+  },
+  "noVideoActive": {
+    "message": "Keepr: कोई सक्रिय वीडियो नहीं"
+  },
+  "noteSavedAt": {
+    "message": "नोट सेव किया गया"
+  },
+  "addNoteTooltip": {
+    "message": "टाइमस्टैंप वाला नोट जोड़ें (Keepr)"
+  },
+  "welcomeTitle": {
+    "message": "Keepr Notes में आपका स्वागत है"
+  },
+  "welcomeSubtitle": {
+    "message": "YouTube के लिए टाइमस्टैंप वाले नोट्स जो आपकी अपनी डिस्क पर रहते हैं।"
+  },
+  "step1Title": {
+    "message": "1 · कोई भी YouTube वीडियो खोलें"
+  },
+  "step1Body": {
+    "message": "Keepr प्लेयर कंट्रोल में एक छोटा नोट बटन जोड़ता है।"
+  },
+  "step2Title": {
+    "message": "2 · सही पल कैप्चर करें"
+  },
+  "step2Body": {
+    "message": "प्लेयर बटन पर क्लिक करें या Alt+N दबाएँ। मौजूदा सेकंड तुरंत सेव हो जाता है।"
+  },
+  "step3Title": {
+    "message": "3 · पैनल खोलें और लिखें"
+  },
+  "step3Body": {
+    "message": "टूलबार में Keepr आइकन पर क्लिक करें। उस पल पर वापस जाने के लिए किसी भी नोट पर क्लिक करें। कभी भी Markdown में एक्सपोर्ट करें या बैकअप लें।"
+  },
+  "welcomeCta": {
+    "message": "YouTube खोलें"
+  },
+  "welcomePrivacy": {
+    "message": "कोई अकाउंट नहीं, कोई सर्वर नहीं, कोई ट्रैकिंग नहीं। आपके नोट्स कभी आपका डिवाइस नहीं छोड़ते।"
+  },
+  "optTitle": {
+    "message": "Keepr Notes — सेटिंग्स"
+  },
+  "optAppearance": {
+    "message": "रूप-रंग"
+  },
+  "optTheme": {
+    "message": "थीम"
+  },
+  "optThemeAuto": {
+    "message": "स्वतः (सिस्टम)"
+  },
+  "optThemeDark": {
+    "message": "डार्क"
+  },
+  "optThemeLight": {
+    "message": "लाइट"
+  },
+  "optDefaultColor": {
+    "message": "नए नोट्स के लिए डिफ़ॉल्ट रंग"
+  },
+  "optData": {
+    "message": "आपका डेटा"
+  },
+  "optDataHint": {
+    "message": "नोट्स केवल इसी डिवाइस पर लोकल रूप से सेव होते हैं। उन्हें नियमित रूप से बैकअप करें।"
+  },
+  "optShortcut": {
+    "message": "कीबोर्ड शॉर्टकट"
+  },
+  "optShortcutBody": {
+    "message": "प्लेयर में: Alt+N। ग्लोबल शॉर्टकट (YouTube पर फ़ोकस किए बिना काम करता है): Alt+Shift+N — आपके ब्राउज़र के एक्सटेंशन शॉर्टकट पेज पर कॉन्फ़िगर किया जा सकता है।"
+  },
+  "optAbout": {
+    "message": "परिचय"
+  },
+  "optAboutBody": {
+    "message": "Keepr Notes लोकल-फर्स्ट और ओपन सोर्स है। यह न्यूनतम अनुमतियाँ माँगता है और आपका डेटा कभी कहीं नहीं भेजता।"
+  },
+  "optColorNone": {
+    "message": "कोई नहीं"
+  },
+  "optSaved": {
+    "message": "सेव हो गया"
+  },
+  "optLanguage": {
+    "message": "भाषा"
+  },
+  "optLanguageAuto": {
+    "message": "स्वचालित (ब्राउज़र)"
+  },
+  "videoSingular": {
+    "message": "वीडियो"
+  },
+  "videoPlural": {
+    "message": "वीडियो"
+  },
+  "optUsage": {
+    "message": "आपके पास $2 में $1 हैं।"
+  },
+  "optEmptyUsage": {
+    "message": "अभी तक कोई नोट सेव नहीं किया गया है।"
+  },
+  "optLastBackup": {
+    "message": "अंतिम बैकअप: $1"
+  },
+  "backupNever": {
+    "message": "कभी नहीं"
+  },
+  "exportAll": {
+    "message": "सभी एक्सपोर्ट करें (.md)"
+  },
+  "allExported": {
+    "message": "सभी नोट्स एक्सपोर्ट हो गए"
+  },
+  "optShortcutsOpen": {
+    "message": "शॉर्टकट बदलें…"
+  },
+  "optShortcutsHint": {
+    "message": "ग्लोबल शॉर्टकट बदलने के लिए, अपने ब्राउज़र का एक्सटेंशन शॉर्टकट पेज खोलें।"
+  },
+  "optSupport": {
+    "message": "Keepr का समर्थन करें"
+  },
+  "optSupportBody": {
+    "message": "Keepr फ्री, लोकल-फर्स्ट और ओपन सोर्स है। अगर यह आपके काम आता है, तो एक छोटा सा टिप इसे चलते रहने में मदद करता है। धन्यवाद!"
+  },
+  "supportKofi": {
+    "message": "मुझे एक Ko-fi खरीदें"
+  },
+  "supportPaypal": {
+    "message": "PayPal से दान करें"
+  }
+}
