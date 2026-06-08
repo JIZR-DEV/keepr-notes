@@ -458,9 +458,18 @@
 
   // Re-render en vivo al cambiar los datos (p. ej. nota añadida desde el player),
   // salvo que el usuario esté editando una nota (no le pisamos el foco).
-  kpApi.storage.onChanged.addListener((changes, area) => {
+  kpApi.storage.onChanged.addListener(async (changes, area) => {
     if (area !== 'local') return;
-    if (changes[KeeprNotes.SETTINGS_KEY]) applyTheme();
+    const setChange = changes[KeeprNotes.SETTINGS_KEY];
+    if (setChange) {
+      applyTheme();
+      const oldLang = setChange.oldValue && setChange.oldValue.lang;
+      const newLang = setChange.newValue && setChange.newValue.lang;
+      if (newLang !== oldLang && self.KeeprI18n) {
+        await self.KeeprI18n.init(); // recarga el diccionario del nuevo idioma
+        self.KeeprI18n.apply(document);
+      }
+    }
     const editing =
       document.activeElement && document.activeElement.classList.contains('kp-note-text');
     if (editing) return;
@@ -475,6 +484,9 @@
   });
 
   // ---- arranque ---------------------------------------------------------
-  applyTheme();
-  resolveActiveTab();
+  (async () => {
+    if (self.KeeprI18n) await self.KeeprI18n.ready; // primer render ya con el idioma resuelto
+    applyTheme();
+    resolveActiveTab();
+  })();
 })();

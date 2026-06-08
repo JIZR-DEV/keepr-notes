@@ -27,21 +27,48 @@
           <span data-i18n="optDefaultColor">Default color for new notes</span>
           <div id="palette" class="o-palette" role="group"></div>
         </div>
+        <label class="o-row">
+          <span data-i18n="optLanguage">Language</span>
+          <select id="lang" class="o-select">
+            <option value="auto" data-i18n="optLanguageAuto">Automatic (browser)</option>
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="pt">Português</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="it">Italiano</option>
+            <option value="hi">हिन्दी</option>
+            <option value="ja">日本語</option>
+          </select>
+        </label>
       </section>
 
       <section class="o-card">
         <h2 data-i18n="optData">Your data</h2>
         <p class="o-hint" data-i18n="optDataHint">Notes are stored locally on this device only. Back them up regularly.</p>
+        <p class="o-stat" id="usage"></p>
+        <p class="o-stat o-stat--dim" id="last-backup"></p>
         <div class="o-actions">
           <button id="backup" class="o-btn" data-i18n="backup">Backup (.json)</button>
           <button id="restore" class="o-btn" data-i18n="restore">Restore…</button>
+          <button id="export-all" class="o-btn" data-i18n="exportAll">Export all (.md)</button>
           <input id="file-restore" type="file" accept="application/json,.json" hidden />
         </div>
       </section>
 
       <section class="o-card">
         <h2 data-i18n="optShortcut">Keyboard shortcut</h2>
-        <p class="o-hint" data-i18n="optShortcutBody">In the player: Alt+N. You can also set a global shortcut from your browser's extension shortcuts page.</p>
+        <p class="o-hint" data-i18n="optShortcutBody">In the player: Alt+N. Global shortcut: Alt+Shift+N.</p>
+        <p class="o-hint" data-i18n="optShortcutsHint">To change the global shortcut, open your browser's extension shortcuts page.</p>
+      </section>
+
+      <section class="o-card o-support">
+        <h2 data-i18n="optSupport">Support Keepr</h2>
+        <p class="o-hint" data-i18n="optSupportBody">Keepr is free, local-first and open source. If it helps you, a small tip keeps it going. Thank you!</p>
+        <div class="o-actions">
+          <a class="o-btn o-btn--kofi" href="https://ko-fi.com/jizr_dev" target="_blank" rel="noopener noreferrer" data-i18n="supportKofi">Buy me a Ko-fi</a>
+          <a class="o-btn o-btn--paypal" href="https://www.paypal.com/paypalme/JIZRxxx" target="_blank" rel="noopener noreferrer" data-i18n="supportPaypal">Donate with PayPal</a>
+        </div>
       </section>
 
       <section class="o-card">

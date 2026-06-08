@@ -72,9 +72,29 @@
   "optData": { "message": "Tus datos" },
   "optDataHint": { "message": "Las notas se guardan solo en este equipo. Haz backup con frecuencia." },
   "optShortcut": { "message": "Atajo de teclado" },
-  "optShortcutBody": { "message": "En el player: Alt+N. También puedes definir un atajo global desde la página de atajos de extensiones de tu navegador." },
+  "optShortcutBody": { "message": "En el player: Alt+N. Atajo global (funciona sin tener YouTube enfocado): Alt+Shift+N — configurable en la página de atajos de extensiones de tu navegador." },
   "optAbout": { "message": "Acerca de" },
   "optAboutBody": { "message": "Keepr Notes es local-first y de código abierto. Pide permisos mínimos y nunca envía tus datos a ningún sitio." },
   "optColorNone": { "message": "Ninguno" },
-  "optSaved": { "message": "Guardado" }
+  "optSaved": { "message": "Guardado" },
+
+  "optLanguage": { "message": "Idioma" },
+  "optLanguageAuto": { "message": "Automático (navegador)" },
+
+  "videoSingular": { "message": "video" },
+  "videoPlural": { "message": "videos" },
+  "optUsage": { "message": "Tienes $1 en $2." },
+  "optEmptyUsage": { "message": "Aún no has guardado notas." },
+  "optLastBackup": { "message": "Último backup: $1" },
+  "backupNever": { "message": "nunca" },
+  "exportAll": { "message": "Exportar todo (.md)" },
+  "allExported": { "message": "Todas las notas exportadas" },
+
+  "optShortcutsOpen": { "message": "Cambiar atajo…" },
+  "optShortcutsHint": { "message": "Para cambiar el atajo global, abre la página de atajos de extensiones de tu navegador." },
+
+  "optSupport": { "message": "Apoya Keepr" },
+  "optSupportBody": { "message": "Keepr es gratis, local-first y de código abierto. Si te sirve, una pequeña propina lo mantiene vivo. ¡Gracias!" },
+  "supportKofi": { "message": "Invítame un Ko-fi" },
+  "supportPaypal": { "message": "Donar con PayPal" }
 }

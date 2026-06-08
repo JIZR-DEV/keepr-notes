@@ -112,8 +112,12 @@ h1 {
 .o-actions {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 .o-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   background: var(--surface-2);
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -122,9 +126,37 @@ h1 {
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
+  text-decoration: none;
 }
 .o-btn:hover {
   filter: brightness(1.1);
+}
+.o-stat {
+  color: var(--text-dim);
+  font-size: 13px;
+  margin: 0 0 6px;
+}
+.o-stat--dim {
+  font-size: 12px;
+  opacity: 0.8;
+  margin-bottom: 12px;
+}
+/* Módulo de donaciones */
+.o-btn--kofi {
+  background: #ff5e5b;
+  border-color: #ff5e5b;
+  color: #fff;
+}
+.o-btn--paypal {
+  background: #0070ba;
+  border-color: #0070ba;
+  color: #fff;
+}
+.o-btn--kofi::before {
+  content: "☕";
+}
+.o-btn--paypal::before {
+  content: "♥";
 }
 .o-version {
   color: var(--text-dim);

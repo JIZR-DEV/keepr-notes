@@ -8,21 +8,14 @@
 const api = globalThis.browser || globalThis.chrome;
 
 // --- Abrir el panel lateral según el navegador -------------------------
+// Chrome/Edge: el click en el icono abre el side panel.
+// Firefox: el sidebar se abre con su propio botón nativo (sidebar_action), por
+// eso allí no declaramos 'action' ni enganchamos onClicked (evita el doble botón).
 if (api.sidePanel && api.sidePanel.setPanelBehavior) {
-  // Chrome / Edge: el click en el icono abre el side panel.
   const enable = () =>
     api.sidePanel.setPanelBehavior({ openPanelOnActionClick: true }).catch(() => {});
   api.runtime.onInstalled.addListener(enable);
   enable();
-} else if (api.sidebarAction && api.action && api.action.onClicked) {
-  // Firefox: el click en el icono alterna el sidebar.
-  api.action.onClicked.addListener(() => {
-    try {
-      api.sidebarAction.toggle();
-    } catch (e) {
-      console.warn('[Keepr] sidebarAction.toggle:', e);
-    }
-  });
 }
 
 // --- Onboarding: abrir la bienvenida en la primera instalación ---------

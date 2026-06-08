@@ -15,9 +15,6 @@
   "background": {
     "scripts": ["background.js"]
   },
-  "action": {
-    "default_title": "__MSG_actionTitle__"
-  },
   "sidebar_action": {
     "default_title": "__MSG_sidebarTitle__",
     "default_panel": "sidepanel/sidepanel.html",
@@ -36,9 +33,15 @@
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
-      "js": ["lib/compat.js", "lib/notes.js", "content/content.js"],
+      "js": ["lib/compat.js", "lib/i18n.js", "lib/notes.js", "content/content.js"],
       "css": ["content/content.css"],
       "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["_locales/*/messages.json"],
+      "matches": ["https://www.youtube.com/*"]
     }
   ],
   "icons": {

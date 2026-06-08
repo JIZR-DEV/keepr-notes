@@ -211,7 +211,7 @@
 
   // ---- Preferencias del usuario (no son notas) --------------------------
   const SETTINGS_KEY = 'keepr_settings';
-  const DEFAULT_SETTINGS = { theme: 'auto', defaultColor: '' };
+  const DEFAULT_SETTINGS = { theme: 'auto', defaultColor: '', lang: 'auto' };
 
   async function getSettings() {
     const out = await kpApi.storage.local.get(SETTINGS_KEY);

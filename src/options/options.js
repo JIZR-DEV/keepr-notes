@@ -11,9 +11,13 @@
 
   const els = {
     theme: $('#theme'),
+    lang: $('#lang'),
     palette: $('#palette'),
     backup: $('#backup'),
     restore: $('#restore'),
+    exportAll: $('#export-all'),
+    usage: $('#usage'),
+    lastBackup: $('#last-backup'),
     file: $('#file-restore'),
     version: $('#version'),
     status: $('#o-status'),
@@ -58,10 +62,29 @@
     }
   }
 
+  async function renderUsage() {
+    const recs = await KeeprNotes.getAll();
+    const videos = recs.length;
+    const notes = recs.reduce((a, r) => a + r.notes.length, 0);
+    if (!videos) {
+      els.usage.textContent = t('optEmptyUsage');
+    } else {
+      const nWord = notes === 1 ? t('noteSingular') : t('notePlural');
+      const vWord = videos === 1 ? t('videoSingular') : t('videoPlural');
+      els.usage.textContent = t('optUsage', [`${notes} ${nWord}`, `${videos} ${vWord}`]);
+    }
+    const s = await KeeprNotes.getSettings();
+    const when = s.lastBackupAt ? new Date(s.lastBackupAt).toLocaleString() : t('backupNever');
+    els.lastBackup.textContent = t('optLastBackup', [when]);
+  }
+
   async function init() {
+    if (self.KeeprI18n) await self.KeeprI18n.ready; // textos ya en el idioma resuelto
     const s = await KeeprNotes.getSettings();
     els.theme.value = s.theme || 'auto';
+    els.lang.value = s.lang || 'auto';
     renderPalette(s.defaultColor || '');
+    renderUsage();
 
     try {
       const manifest = kpApi.runtime.getManifest();
@@ -75,11 +98,29 @@
       status(t('optSaved'));
     });
 
+    els.lang.addEventListener('change', async () => {
+      if (self.KeeprI18n) await self.KeeprI18n.setLang(els.lang.value);
+      else await KeeprNotes.setSettings({ lang: els.lang.value });
+      renderUsage(); // re-renderiza los textos con conteo en el nuevo idioma
+      status(t('optSaved'));
+    });
+
+    els.exportAll.addEventListener('click', async () => {
+      const recs = await KeeprNotes.getAll();
+      if (!recs.length) return status(t('nothingToExport'));
+      const md = recs.map((r) => KeeprNotes.toMarkdown(r)).join('\n---\n\n');
+      const stamp = new Date().toISOString().slice(0, 10);
+      download(`keepr-notes-all-${stamp}.md`, md, 'text/markdown;charset=utf-8');
+      status(t('allExported'));
+    });
+
     els.backup.addEventListener('click', async () => {
       const data = await KeeprNotes.exportAll();
       if (!data.videos.length) return status(t('nothingToBackup'));
       const stamp = new Date().toISOString().slice(0, 10);
       download(`keepr-notes-backup-${stamp}.json`, JSON.stringify(data, null, 2), 'application/json;charset=utf-8');
+      await KeeprNotes.setSettings({ lastBackupAt: Date.now() });
+      renderUsage();
       status(t('backupDownloaded'));
     });
 
@@ -90,6 +131,7 @@
       try {
         const data = JSON.parse(await f.text());
         const added = await KeeprNotes.importAll(data, 'merge');
+        renderUsage();
         status(`${t('restoredPrefix')} ${added} ${t('notePlural')}`);
       } catch {
         status(t('invalidBackup'));

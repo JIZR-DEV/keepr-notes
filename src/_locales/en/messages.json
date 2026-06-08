@@ -72,9 +72,29 @@
   "optData": { "message": "Your data" },
   "optDataHint": { "message": "Notes are stored locally on this device only. Back them up regularly." },
   "optShortcut": { "message": "Keyboard shortcut" },
-  "optShortcutBody": { "message": "In the player: Alt+N. You can also set a global shortcut from your browser's extension shortcuts page." },
+  "optShortcutBody": { "message": "In the player: Alt+N. Global shortcut (works without focusing YouTube): Alt+Shift+N — configurable in your browser's extension shortcuts page." },
   "optAbout": { "message": "About" },
   "optAboutBody": { "message": "Keepr Notes is local-first and open source. It requests minimal permissions and never sends your data anywhere." },
   "optColorNone": { "message": "None" },
-  "optSaved": { "message": "Saved" }
+  "optSaved": { "message": "Saved" },
+
+  "optLanguage": { "message": "Language" },
+  "optLanguageAuto": { "message": "Automatic (browser)" },
+
+  "videoSingular": { "message": "video" },
+  "videoPlural": { "message": "videos" },
+  "optUsage": { "message": "You have $1 across $2." },
+  "optEmptyUsage": { "message": "No notes saved yet." },
+  "optLastBackup": { "message": "Last backup: $1" },
+  "backupNever": { "message": "never" },
+  "exportAll": { "message": "Export all (.md)" },
+  "allExported": { "message": "All notes exported" },
+
+  "optShortcutsOpen": { "message": "Change shortcut…" },
+  "optShortcutsHint": { "message": "To change the global shortcut, open your browser's extension shortcuts page." },
+
+  "optSupport": { "message": "Support Keepr" },
+  "optSupportBody": { "message": "Keepr is free, local-first and open source. If it helps you, a small tip keeps it going. Thank you!" },
+  "supportKofi": { "message": "Buy me a Ko-fi" },
+  "supportPaypal": { "message": "Donate with PayPal" }
 }

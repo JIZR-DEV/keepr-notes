@@ -15,13 +15,28 @@
   const SVGNS = 'http://www.w3.org/2000/svg';
   let currentVideoId = null;
 
+  // Usa la capa con override (KeeprI18n) si está; si no, cae a la i18n nativa.
   const t = (k, s) => {
+    if (self.KeeprI18n) return self.KeeprI18n.t(k, s);
     try {
       return (kpApi.i18n && kpApi.i18n.getMessage(k, s)) || k;
     } catch {
       return k;
     }
   };
+
+  // Cuando el diccionario del idioma elegido termina de cargar, re-aplica los
+  // textos del botón ya inyectado (su título se construyó quizá antes).
+  function retitleButton() {
+    const btn = document.getElementById(BTN_ID);
+    if (btn) {
+      btn.title = t('addNoteTooltip');
+      btn.setAttribute('aria-label', t('addNoteTooltip'));
+    }
+  }
+  if (self.KeeprI18n && self.KeeprI18n.ready) {
+    self.KeeprI18n.ready.then(retitleButton).catch(() => {});
+  }
 
   // ---- helpers de página -------------------------------------------------
 
