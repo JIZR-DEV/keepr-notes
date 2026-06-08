@@ -357,13 +357,113 @@ body {
   margin: 0;
 }
 
+/* Cabecera del video: volver, título y contador */
+.kp-back {
+  background: none;
+  border: none;
+  color: var(--accent-2);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0 0 6px;
+}
+.kp-back:hover {
+  text-decoration: underline;
+}
+.kp-titlerow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+.kp-count {
+  flex-shrink: 0;
+  background: var(--surface-2);
+  color: var(--text-dim);
+  border-radius: 999px;
+  padding: 1px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.kp-count:empty {
+  display: none;
+}
+.kp-browsing {
+  margin: 0 0 10px;
+  color: var(--text-dim);
+  font-size: 12px;
+  line-height: 1.4;
+  font-style: italic;
+}
+.kp-tab-badge {
+  margin-left: 6px;
+  background: var(--surface-2);
+  color: var(--text-dim);
+  border-radius: 999px;
+  padding: 0 6px;
+  font-size: 10px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.kp-tab-badge:empty {
+  display: none;
+}
+
+/* Ajuste de timestamp (±5s) */
+.kp-timegroup {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.kp-step {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 2px 6px;
+}
+
+/* Item de biblioteca clicable (abre las notas en el panel) */
+.kp-lib-open {
+  background: none;
+  border: none;
+  color: var(--text);
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  flex: 1;
+  min-width: 0;
+}
+.kp-lib-open:hover .kp-lib-title {
+  color: var(--accent-2);
+}
+
+/* Botón Deshacer dentro del toast */
+.kp-undo {
+  pointer-events: auto;
+  background: none;
+  border: none;
+  color: var(--accent-2);
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  margin-left: 12px;
+  padding: 0;
+}
+.kp-undo:hover {
+  text-decoration: underline;
+}
+
 /* Foco visible accesible */
 .kp-tab:focus-visible,
 .kp-btn:focus-visible,
 .kp-icon:focus-visible,
 .kp-ts:focus-visible,
 .kp-select:focus-visible,
-.kp-gear:focus-visible {
+.kp-gear:focus-visible,
+.kp-back:focus-visible,
+.kp-lib-open:focus-visible,
+.kp-undo:focus-visible {
   outline: 2px solid var(--accent-2);
   outline-offset: 1px;
 }

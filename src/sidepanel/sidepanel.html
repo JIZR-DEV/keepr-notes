@@ -15,13 +15,18 @@
       </div>
       <nav class="kp-tabs" role="tablist">
         <button class="kp-tab kp-tab--active" id="tab-video" data-view="video" role="tab" aria-selected="true" aria-controls="view-video" data-i18n="tabVideo">This video</button>
-        <button class="kp-tab" id="tab-library" data-view="library" role="tab" aria-selected="false" aria-controls="view-library" tabindex="-1" data-i18n="tabLibrary">Library</button>
+        <button class="kp-tab" id="tab-library" data-view="library" role="tab" aria-selected="false" aria-controls="view-library" tabindex="-1"><span data-i18n="tabLibrary">Library</span><span id="lib-count" class="kp-tab-badge"></span></button>
       </nav>
     </header>
 
     <!-- VISTA: video actual -->
     <section id="view-video" class="kp-view" role="tabpanel" aria-labelledby="tab-video" tabindex="0">
-      <div id="video-title" class="kp-video-title" data-i18n="videoPlaceholder">Open a YouTube video to take notes…</div>
+      <button id="btn-back" class="kp-back kp-hidden" type="button" data-i18n="backToLibrary">← Library</button>
+      <div class="kp-titlerow">
+        <div id="video-title" class="kp-video-title" data-i18n="videoPlaceholder">Open a YouTube video to take notes…</div>
+        <span id="note-count" class="kp-count" aria-hidden="true"></span>
+      </div>
+      <p id="browsing-note" class="kp-browsing kp-hidden" data-i18n="browsingSaved">Saved video — open it on YouTube to add notes.</p>
 
       <div class="kp-actions">
         <button id="btn-add" class="kp-btn kp-btn--primary" disabled data-i18n="addNote">

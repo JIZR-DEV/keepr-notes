@@ -24,6 +24,15 @@
   "restore": { "message": "Restaurar…" },
   "optionsTitle": { "message": "Ajustes" },
 
+  "undo": { "message": "Deshacer" },
+  "backToLibrary": { "message": "← Biblioteca" },
+  "browsingSaved": { "message": "Video guardado — ábrelo en YouTube para añadir notas." },
+  "adjustEarlier": { "message": "5s antes" },
+  "adjustLater": { "message": "5s después" },
+  "copyMd": { "message": "Copiar Markdown" },
+  "mdCopied": { "message": "Markdown copiado" },
+  "openVideo": { "message": "Abrir este video" },
+
   "jump": { "message": "Saltar a este momento" },
   "openVideoToJump": { "message": "Abre el video en una pestaña para saltar" },
   "openAt": { "message": "Abrir en este momento" },

@@ -24,6 +24,15 @@
   "restore": { "message": "Restore…" },
   "optionsTitle": { "message": "Settings" },
 
+  "undo": { "message": "Undo" },
+  "backToLibrary": { "message": "← Library" },
+  "browsingSaved": { "message": "Saved video — open it on YouTube to add notes." },
+  "adjustEarlier": { "message": "5s earlier" },
+  "adjustLater": { "message": "5s later" },
+  "copyMd": { "message": "Copy Markdown" },
+  "mdCopied": { "message": "Markdown copied" },
+  "openVideo": { "message": "Open this video" },
+
   "jump": { "message": "Jump to this moment" },
   "openVideoToJump": { "message": "Open the video in a tab to jump" },
   "openAt": { "message": "Open at this moment" },
