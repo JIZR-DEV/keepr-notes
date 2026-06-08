@@ -1,11 +1,17 @@
 {
   "manifest_version": 3,
   "name": "__MSG_extName__",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "default_locale": "en",
   "description": "__MSG_extDesc__",
-  "permissions": ["storage", "sidePanel", "tabs"],
-  "host_permissions": ["https://www.youtube.com/*"],
+  "permissions": [
+    "storage",
+    "sidePanel",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
   "background": {
     "service_worker": "background.js"
   },
@@ -21,22 +27,37 @@
   },
   "commands": {
     "add-note": {
-      "suggested_key": { "default": "Alt+Shift+N" },
+      "suggested_key": {
+        "default": "Alt+Shift+N"
+      },
       "description": "__MSG_cmdAddNote__"
     }
   },
   "content_scripts": [
     {
-      "matches": ["https://www.youtube.com/*"],
-      "js": ["lib/compat.js", "lib/i18n.js", "lib/notes.js", "content/content.js"],
-      "css": ["content/content.css"],
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "lib/compat.js",
+        "lib/i18n.js",
+        "lib/notes.js",
+        "content/content.js"
+      ],
+      "css": [
+        "content/content.css"
+      ],
       "run_at": "document_idle"
     }
   ],
   "web_accessible_resources": [
     {
-      "resources": ["_locales/*/messages.json"],
-      "matches": ["https://www.youtube.com/*"]
+      "resources": [
+        "_locales/*/messages.json"
+      ],
+      "matches": [
+        "https://www.youtube.com/*"
+      ]
     }
   ],
   "icons": {

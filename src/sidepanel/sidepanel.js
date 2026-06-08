@@ -143,6 +143,30 @@
     return KeeprNotes.fmtTime(n.t).includes(q);
   }
 
+  // Construye un fragmento con las coincidencias de `q` envueltas en <mark> (sin innerHTML).
+  function highlight(text, q) {
+    const frag = document.createDocumentFragment();
+    const query = (q || '').trim();
+    if (!query) {
+      frag.appendChild(document.createTextNode(text));
+      return frag;
+    }
+    const lower = text.toLowerCase();
+    const ql = query.toLowerCase();
+    let i = 0;
+    let idx;
+    while ((idx = lower.indexOf(ql, i)) !== -1) {
+      if (idx > i) frag.appendChild(document.createTextNode(text.slice(i, idx)));
+      const mark = document.createElement('mark');
+      mark.className = 'kp-mark';
+      mark.textContent = text.slice(idx, idx + query.length);
+      frag.appendChild(mark);
+      i = idx + query.length;
+    }
+    if (i < text.length) frag.appendChild(document.createTextNode(text.slice(i)));
+    return frag;
+  }
+
   function firstNoteUrl(rec) {
     const sorted = rec.notes.slice().sort((a, b) => a.t - b.t);
     return KeeprNotes.urlAt(rec.videoId, sorted.length ? sorted[0].t : 0);
@@ -447,7 +471,7 @@
 
     const snippet = document.createElement('div');
     snippet.className = 'kp-hit-snippet';
-    snippet.textContent = hit.note.text || '—';
+    snippet.appendChild(highlight(hit.note.text || '—', state.libFilter));
 
     main.append(title, snippet);
 

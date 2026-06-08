@@ -124,7 +124,8 @@
       for (const n of rec.notes) {
         const inText = (n.text || '').toLowerCase().includes(q);
         const inTags = (n.tags || []).some((tg) => tg.toLowerCase().includes(q));
-        if (inText || inTags) {
+        const inTime = fmtTime(n.t).includes(q);
+        if (inText || inTags || inTime) {
           hits.push({ videoId: rec.videoId, title: rec.title || rec.videoId, url: rec.url, note: n });
         }
       }

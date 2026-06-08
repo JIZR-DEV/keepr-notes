@@ -184,8 +184,16 @@
     injectButton();
   }
 
+  // YouTube muta el DOM constantemente; coalescemos las ráfagas en una sola
+  // comprobación por frame (injectButton es idempotente).
+  let injectScheduled = false;
   const observer = new MutationObserver(() => {
-    if (!document.getElementById(BTN_ID)) injectButton();
+    if (injectScheduled) return;
+    injectScheduled = true;
+    requestAnimationFrame(() => {
+      injectScheduled = false;
+      if (!document.getElementById(BTN_ID)) injectButton();
+    });
   });
   observer.observe(document.documentElement, { childList: true, subtree: true });
 

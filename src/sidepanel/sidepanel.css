@@ -330,6 +330,12 @@ body {
 .kp-hit {
   border-left: 3px solid transparent;
 }
+.kp-mark {
+  background: var(--accent-2);
+  color: #fff;
+  border-radius: 3px;
+  padding: 0 2px;
+}
 .kp-hit-snippet {
   color: var(--text-dim);
   font-size: 12px;
