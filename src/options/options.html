@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keepr Notes</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main class="o-wrap">
+      <header class="o-head">
+        <span class="o-logo" aria-hidden="true">📌</span>
+        <h1 data-i18n="optTitle">Keepr Notes — Settings</h1>
+      </header>
+
+      <section class="o-card">
+        <h2 data-i18n="optAppearance">Appearance</h2>
+        <label class="o-row">
+          <span data-i18n="optTheme">Theme</span>
+          <select id="theme" class="o-select">
+            <option value="auto" data-i18n="optThemeAuto">Auto (system)</option>
+            <option value="dark" data-i18n="optThemeDark">Dark</option>
+            <option value="light" data-i18n="optThemeLight">Light</option>
+          </select>
+        </label>
+        <div class="o-row">
+          <span data-i18n="optDefaultColor">Default color for new notes</span>
+          <div id="palette" class="o-palette" role="group"></div>
+        </div>
+      </section>
+
+      <section class="o-card">
+        <h2 data-i18n="optData">Your data</h2>
+        <p class="o-hint" data-i18n="optDataHint">Notes are stored locally on this device only. Back them up regularly.</p>
+        <div class="o-actions">
+          <button id="backup" class="o-btn" data-i18n="backup">Backup (.json)</button>
+          <button id="restore" class="o-btn" data-i18n="restore">Restore…</button>
+          <input id="file-restore" type="file" accept="application/json,.json" hidden />
+        </div>
+      </section>
+
+      <section class="o-card">
+        <h2 data-i18n="optShortcut">Keyboard shortcut</h2>
+        <p class="o-hint" data-i18n="optShortcutBody">In the player: Alt+N. You can also set a global shortcut from your browser's extension shortcuts page.</p>
+      </section>
+
+      <section class="o-card">
+        <h2 data-i18n="optAbout">About</h2>
+        <p class="o-hint" data-i18n="optAboutBody">Keepr Notes is local-first and open source. It requests minimal permissions and never sends your data anywhere.</p>
+        <p class="o-version" id="version"></p>
+      </section>
+    </main>
+
+    <div id="o-status" class="o-status" role="status" aria-live="polite"></div>
+
+    <script src="../lib/compat.js"></script>
+    <script src="../lib/i18n.js"></script>
+    <script src="../lib/notes.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>

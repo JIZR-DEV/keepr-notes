@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="280" viewBox="0 0 440 280" font-family="'Segoe UI', Roboto, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#241016"/>
+      <stop offset="1" stop-color="#0f0f10"/>
+    </linearGradient>
+    <linearGradient id="pin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff5c5c"/>
+      <stop offset="1" stop-color="#e23b3b"/>
+    </linearGradient>
+  </defs>
+  <rect width="440" height="280" fill="url(#bg)"/>
+  <!-- marca: nota con + -->
+  <g transform="translate(40,86)">
+    <rect x="0" y="0" width="108" height="108" rx="26" fill="url(#pin)"/>
+    <rect x="33" y="30" width="42" height="54" rx="6" fill="none" stroke="#fff" stroke-width="5"/>
+    <path d="M54 44v26M41 57h26" stroke="#fff" stroke-width="5.5" stroke-linecap="round"/>
+  </g>
+  <text x="176" y="120" fill="#ffffff" font-size="38" font-weight="800">Keepr Notes</text>
+  <text x="178" y="156" fill="#ff8a8a" font-size="18" font-weight="600">Timestamped notes for YouTube</text>
+  <text x="178" y="186" fill="#b9b9c0" font-size="15">100% local · click a note → jump to the second</text>
+  <text x="178" y="214" fill="#7f7f88" font-size="13">No account · no servers · no tracking</text>
+</svg>

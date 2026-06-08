@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "version": "0.2.0",
+  "default_locale": "en",
+  "description": "__MSG_extDesc__",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "keepr-notes@keepr.app",
+      "strict_min_version": "115.0"
+    }
+  },
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_title": "__MSG_actionTitle__"
+  },
+  "sidebar_action": {
+    "default_title": "__MSG_sidebarTitle__",
+    "default_panel": "sidepanel/sidepanel.html",
+    "default_icon": "icons/icon48.png"
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  },
+  "commands": {
+    "add-note": {
+      "suggested_key": { "default": "Alt+Shift+N" },
+      "description": "__MSG_cmdAddNote__"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["lib/compat.js", "lib/notes.js", "content/content.js"],
+      "css": ["content/content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

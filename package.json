@@ -1,0 +1,12 @@
+{
+  "name": "keepr-notes",
+  "version": "0.2.0",
+  "description": "Local-first timestamped notes for YouTube (Chrome + Firefox)",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "build:chrome": "node build.js chrome",
+    "build:firefox": "node build.js firefox"
+  },
+  "license": "MIT"
+}
