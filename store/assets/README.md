@@ -15,18 +15,26 @@ Las tiendas piden PNG/JPG. Para rasterizar los SVG:
 
 ## Screenshots de la ficha (capturas reales del producto)
 
-Las capturas de la ficha deben mostrar el producto REAL en funcionamiento, así que
-se toman tras cargar la extensión (no se pueden autogenerar fielmente).
+Ya generadas en [`screenshots/`](screenshots/), a **1280×800 PNG** (tamaño exacto de
+Chrome Web Store; también válidas para AMO). Renderizan la **UI real** de la extensión
+(su HTML/CSS reales) con datos de ejemplo, sobre un marco promocional de marca. Set
+completo en inglés y español:
 
-Tamaños:
+| # | Inglés | Español | Muestra |
+|---|--------|---------|---------|
+| 1 | `01-capture-en.png` | `01-captura-es.png` | Notas con timestamp del vídeo activo |
+| 2 | `02-library-en.png` | `02-biblioteca-es.png` | Biblioteca de vídeos anotados |
+| 3 | `03-search-en.png` | `03-busqueda-es.png` | Búsqueda global con resaltado |
+| 4 | `04-settings-en.png` | `04-ajustes-es.png` | Ajustes: tema, color, 8 idiomas |
+| 5 | `05-welcome-en.png` | `05-bienvenida-es.png` | Onboarding (sin cuenta, sin servidores) |
+
+No muestran vídeo real de YouTube (mejor para políticas de marca/copyright); el
+contenido de ejemplo es neutro. Sube 4–5 por ficha en el idioma correspondiente.
+
+### Cómo regenerarlas
+Se generan con un harness desechable que monta la UI real con un mock de
+`chrome.storage`, servido por HTTP, y capturado con Playwright a 1280×800. El harness
+vive en `dist/` (se borra al rehacer el build), por lo que para reproducirlas hay que
+recrear el mock + `promo.html` y volver a capturar. Tamaños de referencia:
 - **Chrome Web Store:** 1280×800 o 640×400 (PNG/JPG). Mínimo 1, recomendado 4–5.
 - **Firefox AMO:** tamaño libre (se recomienda ~1280×800).
-
-Guion sugerido (alineado con los `screenshot_captions` de cada listing):
-1. Un video de YouTube con el botón de Keepr en el player + el panel lateral con notas.
-2. Clic en una nota → el video salta al segundo exacto (mostrar el timestamp).
-3. La Biblioteca con búsqueda global entre todos los videos.
-4. Export a Markdown con timestamps clicables (mostrar el `.md` resultante).
-5. Pantalla de Ajustes mostrando "100% local, sin servidores" (mensaje de confianza).
-
-Consejo: usa una ventana a 1280×800, tema oscuro, y un video de demo neutro.
