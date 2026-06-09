@@ -21,7 +21,7 @@ Keepr is local-first by design. Your notes live in your browser's local storage 
 ★ 100% LOCAL — Notes are saved with Firefox's local storage. They never leave your machine.
 ★ NO ACCOUNT — No sign-up, no email, no login wall. Install and start writing.
 ★ NO TELEMETRY — Zero tracking, zero analytics, zero phone-home requests. We don't know what you watch, and we never will.
-★ OPEN SOURCE — The full source code is public so anyone can verify exactly what it does. Trust is earned by being inspectable, not by promises.
+★ OPEN SOURCE — The full source code is public at https://github.com/JIZR-DEV/keepr-notes, so anyone can verify exactly what it does. Trust is earned by being inspectable, not by promises.
 ★ MINIMAL PERMISSIONS — Keepr asks only for what it needs to run on YouTube. Nothing more.
 
 WHAT YOU CAN DO

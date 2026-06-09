@@ -4,6 +4,7 @@
   "version": "0.3.0",
   "default_locale": "en",
   "description": "__MSG_extDesc__",
+  "homepage_url": "https://github.com/JIZR-DEV/keepr-notes",
   "browser_specific_settings": {
     "gecko": {
       "id": "keepr-notes@keepr.app",
