@@ -16,7 +16,7 @@
     <path d="M85 70v40M65 90h40" stroke="#fff" stroke-width="9" stroke-linecap="round"/>
   </g>
   <text x="380" y="250" fill="#ffffff" font-size="74" font-weight="800">Keepr Notes</text>
-  <text x="384" y="312" fill="#ff8a8a" font-size="34" font-weight="600">Timestamped notes for YouTube — that live on your disk</text>
+  <text x="384" y="312" fill="#ff8a8a" font-size="34" font-weight="600">Timestamped video notes — that live on your disk</text>
   <text x="384" y="372" fill="#cfcfd6" font-size="26">Click a note → jump to the exact second. Export to Markdown. Back up anytime.</text>
   <text x="384" y="424" fill="#8c8c95" font-size="22">100% local · no account · no servers · no tracking · open source</text>
 </svg>
