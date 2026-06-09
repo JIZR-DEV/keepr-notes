@@ -88,7 +88,7 @@ temporal* → selecciona `dist/firefox/manifest.json`.
 
 Sin permisos de red. Nada sale del dispositivo. Ver `store/PRIVACY.md`.
 
-## Roadmap (post, detrás de Pro de pago único)
+## Roadmap (futuro)
 
 - Sync BYO-key a Notion/Obsidian/Drive · importador de exports de apps difuntas
   (rescate de huérfanos) · recordatorio de backup · captura de frame (tras spike técnico).

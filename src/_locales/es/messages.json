@@ -1,5 +1,5 @@
 {
-  "extName": { "message": "Keepr Notes — Notas con timestamp para YouTube" },
+  "extName": { "message": "Keepr Notes — Notas de vídeo con timestamp" },
   "extDesc": { "message": "Toma notas con marca de tiempo en YouTube. 100% local: tus notas viven en tu disco y sobreviven aunque la extensión deje de actualizarse." },
   "actionTitle": { "message": "Keepr Notes — abrir panel" },
   "sidebarTitle": { "message": "Keepr Notes" },

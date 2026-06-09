@@ -1,4 +1,4 @@
-# Keepr Notes: Notas con Timestamp para YouTube (Local-First)
+# Keepr Notes: Notas de vídeo con timestamp (Local-First)
 
 **Store:** chrome · **Locale:** es
 
@@ -11,7 +11,7 @@ Toma notas en YouTube con el segundo exacto. 100% local, sin login ni servidor. 
 Toma notas mientras ves YouTube y captura el segundo exacto del video con un solo clic. Tus notas viven en TU disco, no en un servidor que puede cerrar mañana.
 
 == POR QUE KEEPR NOTES ==
-El cementerio de apps de notas en la nube esta lleno: servicios que cierran, logins que fallan, datos que desaparecen. TubersLab cerro y dejo a miles de usuarios sin sus notas. ReClipped, YiNote y Snipo arrastran bugs de autenticacion y servidor. Keepr Notes nace para resolver eso de raiz: SIN servidor, SIN cuenta, SIN suscripcion. Si tu navegador funciona, tus notas funcionan.
+El cementerio de apps de notas en la nube esta lleno: servicios que cierran, logins que fallan, datos que desaparecen. Demasiadas herramientas guardan tus notas en un servidor que puede apagarse manana y llevarselas con el. Keepr Notes nace para resolver eso de raiz: SIN servidor, SIN cuenta, SIN suscripcion. Si tu navegador funciona, tus notas funcionan.
 
 == COMO FUNCIONA ==
 - Pulsa el boton en el reproductor (o Alt+N) y se guarda el momento exacto.
@@ -39,14 +39,14 @@ Local-first de verdad. No recolectamos datos, no pedimos correo, no hay tracking
 - Aprendizaje de idiomas: guarda frases y vuelve a escucharlas cuando quieras.
 - Equipos y cursos: exporta a Markdown y comparte resumenes con timestamps.
 
-== PRECIO JUSTO ==
-Gratis para empezar. Si te encanta, una sola compra (pago unico, sin suscripciones que nunca terminan).
+== GRATIS, CON DONACIONES OPCIONALES ==
+Keepr es gratis: todas las funciones, sin candados, sin version pro y sin suscripcion. Si te resulta util, puedes dejar una propina opcional en Ko-fi o PayPal. Las donaciones son voluntarias y no bloquean ninguna funcion.
 
 Instala Keepr Notes hoy y deja de perder tus notas. Pulsa "Anadir a Chrome" y captura tu primer momento en segundos.
 
 ## Keywords
 
-notas youtube, notas con timestamp, timestamp youtube, notas video, tomar notas youtube, notas local, local-first, sin login, privacidad, exportar markdown, backup json, alternativa reclipped, reclipped alternative, alternativa tuberslab, tuberslab alternative, alternativa yinote, yinote alternative, alternativa snipo, snipo alternative, alternativa glasp, glasp alternative, marcadores youtube, apuntes video, extension youtube notas, video notes, youtube notes extension, estudiar con youtube, notas sin servidor, Alt+N notas, manifest v3 notas
+notas youtube, notas con timestamp, timestamp youtube, notas video, tomar notas youtube, notas local, local-first, sin login, privacidad, exportar markdown, backup json, marcadores youtube, apuntes video, extension youtube notas, video notes, youtube notes extension, estudiar con youtube, notas sin servidor, Alt+N notas, manifest v3 notas, notas con marca de tiempo, guardar momentos youtube, anotar videos, notas privadas youtube, apuntes de clases
 
 ## Screenshot captions
 
@@ -58,4 +58,4 @@ notas youtube, notas con timestamp, timestamp youtube, notas video, tomar notas 
 
 ---
 > **Nota de cumplimiento:** se han eliminado de las *keywords* publicadas los nombres de marcas de competidores (riesgo de politica de marca de las tiendas). Se conservan terminos genericos de busqueda. Revisa la descripcion antes de publicar para no nombrar/denigrar productos de terceros.
-> **Marcas detectadas en el texto:** glasp, notion, obsidian, reclipped, snipo, tuberslab, yinote — revisar/eliminar referencias directas.
+> **Marcas detectadas en el texto:** notion, obsidian — se mantienen solo como destinos de exportacion (uso nominativo permitido). Competidores (glasp, reclipped, snipo, tuberslab, yinote) ya eliminados de keywords y descripcion.

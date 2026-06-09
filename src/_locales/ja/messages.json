@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "Keepr Notes — YouTube用タイムスタンプ付きメモ"
+    "message": "Keepr Notes — タイムスタンプ付き動画メモ"
   },
   "extDesc": {
     "message": "YouTubeでタイムスタンプ付きのメモを取れます。100%ローカル動作で、メモはあなたのディスクに保存され、拡張機能の更新が止まっても残り続けます。"

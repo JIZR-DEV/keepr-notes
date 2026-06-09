@@ -1,4 +1,4 @@
-# Keepr Notes — Local Timestamped Notes for YouTube
+# Keepr Notes — Local Timestamped Video Notes
 
 **Store:** firefox · **Locale:** en
 
@@ -47,7 +47,7 @@ Because Keepr is local-first, you decide where your notes go. Export to Markdown
 
 PRICING
 
-Keepr is free to use. A one-time purchase (no subscription, ever) unlocks the full experience. Pay once, own it.
+Keepr is free — every feature, no paywall, no subscription. If it helps you, an optional tip on Ko-fi or PayPal supports ongoing development. Donations are voluntary and never gate a feature.
 
 Note: Keepr does not download videos. It only stores the notes you write and the timestamps you capture.
 
@@ -55,7 +55,7 @@ Install Keepr Notes and start building a video knowledge base you actually own.
 
 ## Keywords
 
-youtube notes, timestamped notes, timestamp notes youtube, video notes, local-first notes, private notes youtube, no account note taking, markdown export youtube, youtube annotations, study notes youtube, lecture notes, open source extension, no telemetry, reclipped alternative, tuberslab alternative, yinote alternative, snipo alternative, glasp alternative, video annotation tool, youtube bookmark timestamps, offline notes, json backup notes, side panel notes, seek to timestamp
+youtube notes, timestamped notes, timestamp notes youtube, video notes, local-first notes, private notes youtube, no account note taking, markdown export youtube, youtube annotations, study notes youtube, lecture notes, no telemetry, video annotation tool, youtube bookmark timestamps, offline notes, json backup notes, side panel notes, seek to timestamp, save youtube moments, study with youtube, timestamped bookmarks, video knowledge base
 
 ## Screenshot captions
 
@@ -67,4 +67,4 @@ youtube notes, timestamped notes, timestamp notes youtube, video notes, local-fi
 
 ---
 > **Nota de cumplimiento:** se han eliminado de las *keywords* publicadas los nombres de marcas de competidores (riesgo de politica de marca de las tiendas). Se conservan terminos genericos de busqueda. Revisa la descripcion antes de publicar para no nombrar/denigrar productos de terceros.
-> **Marcas detectadas en el texto:** glasp, notion, obsidian, reclipped, snipo, tuberslab, yinote — revisar/eliminar referencias directas.
+> **Marcas detectadas en el texto:** notion, obsidian — se mantienen solo como destinos de exportacion (uso nominativo permitido). Competidores (glasp, reclipped, snipo, tuberslab, yinote) ya eliminados de keywords y descripcion.
