@@ -1,5 +1,11 @@
 # Keepr Notes — Notas con timestamp para YouTube (Chrome + Firefox)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue.svg)
+![Browsers](https://img.shields.io/badge/Chrome%20·%20Edge%20·%20Firefox-supported-orange.svg)
+![Privacy](https://img.shields.io/badge/data-100%25%20local-success.svg)
+![i18n](https://img.shields.io/badge/i18n-8%20languages-informational.svg)
+
 > **Tus notas viven en tu disco, no en un servidor que puede morir mañana.**
 
 Extensión de navegador (Manifest V3, **Chrome/Edge y Firefox**) para tomar notas
@@ -17,7 +23,7 @@ servidor, sin login, sin rastreo.**
 - 🔀 **Orden** por tiempo / más recientes / última edición.
 - 🗂️ **Panel lateral** (side panel en Chrome, sidebar en Firefox) + **Biblioteca**.
 - 📤 **Export a Markdown** con timestamps clicables · **Backup/Restore** `.json`.
-- 🌍 **Internacionalización** EN + ES (vía `_locales`).
+- 🌍 **Internacionalización** en 8 idiomas: EN, ES, PT, FR, DE, IT, HI, JA (vía `_locales`).
 - 🎉 **Onboarding** al instalar y **página de Ajustes** (tema claro/oscuro, color por defecto).
 - 🛡️ **Resiliente** a rediseños de YouTube (MutationObserver + selectores con fallback + SPA nav).
 
@@ -34,7 +40,7 @@ src/                       Código compartido por ambos navegadores
   sidepanel/               Panel: notas, biblioteca, búsqueda global, tema
   options/                 Página de Ajustes
   welcome/                 Pantalla de bienvenida (primer uso)
-  _locales/{en,es}/        Cadenas traducidas
+  _locales/{en,es,pt,fr,de,it,hi,ja}/  Cadenas traducidas (8 idiomas)
   icons/                   16 / 48 / 128
 manifest.chrome.json       Manifest específico de Chrome (side_panel, sidePanel)
 manifest.firefox.json      Manifest específico de Firefox (sidebar_action, gecko id)
@@ -92,3 +98,21 @@ Sin permisos de red. Nada sale del dispositivo. Ver `store/PRIVACY.md`.
 
 - Sync BYO-key a Notion/Obsidian/Drive · importador de exports de apps difuntas
   (rescate de huérfanos) · recordatorio de backup · captura de frame (tras spike técnico).
+
+## Privacidad
+
+100% local: tus notas se guardan con `chrome.storage.local` y **nunca** salen de
+tu equipo. Sin servidores, sin cuentas, sin telemetría ni peticiones de red
+propias. Política completa: [`store/PRIVACY.md`](store/PRIVACY.md).
+
+## Apoya el proyecto
+
+Keepr es gratis y de código abierto. Si te resulta útil, puedes dejar una propina
+voluntaria — no desbloquea nada, porque ya está todo desbloqueado:
+
+- ☕ Ko-fi: <https://ko-fi.com/jizr_dev>
+- 💙 PayPal: <https://www.paypal.com/paypalme/JIZRxxx>
+
+## Licencia
+
+[MIT](LICENSE) © 2026 Keepr Notes contributors.
